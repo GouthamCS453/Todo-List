@@ -58,7 +58,7 @@ const Home = () => {
                 {row.userId}
               </TableCell>
               <TableCell align="center">{row.todo}</TableCell>
-              <TableCell align="center">{row.userId}</TableCell>
+              <TableCell align="center">{row.completed.toString()}</TableCell>
             </TableRow>
           ))}
         </TableBody>
